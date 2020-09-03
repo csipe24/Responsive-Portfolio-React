@@ -8,7 +8,7 @@ import InMyCity from "../../images/InMyCity.jpg";
 import InventoryKeeper from "../../images/InventoryKeeper.jpg";
 import PasswordGen from "../../images/PassGen.jpg";
 import { Carousel } from 'react-bootstrap';
-
+ 
 
 function CarouselComp(){
     // const isAuth = useIsAuthenticated();
