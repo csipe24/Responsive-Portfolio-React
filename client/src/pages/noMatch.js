@@ -5,7 +5,7 @@ const NoMatch = () => {
   return (
     <div>
     <h1>404 Page Not Found</h1>
-    <h1>Questions? <Project/> </h1>
+    <h1>Questions? <Project/>  </h1>
     </div>
   );
 };
