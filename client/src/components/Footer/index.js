@@ -1,14 +1,15 @@
 import React from "react";
+import Project from "../Project";
 
-// import {useIsAuthenticated, useLogout} from "../../utils/auth";
 
 function Footer(){
 
 
         return (
             <div>
-            <nav class="navbar fixed-bottom navbar-light bg-light">
-            <a class="navbar-brand" href="#">Coder In Training</a>
+            <nav class="navbar fixed-bottom bg-dark text-white justify-content-end">
+            <a class="navbar-brand" href="https://github.com/csipe24">Coder In Training</a>
+            <Project/>
             </nav>
             </div>
         );

@@ -1,6 +1,6 @@
 import React from "react";
 import profilepic from "../images/profilepic.jpg";
-
+import Project from "../components/Project";
 // import {useIsAuthenticated, useLogout} from "../utils/auth";
 
 function Profile(){
@@ -15,6 +15,7 @@ function Profile(){
             <hr class="my-3"></hr>
             <p className="lead"></p>
             <h2>React Resume</h2>
+            <Project/>
             </div>
             </div>
 
