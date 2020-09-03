@@ -1,29 +1,18 @@
-# Create React Express App
+# Personal React Profile Page
 
-## About This Boilerplate
+## Description
+Welcome to My personal react responsive portfolio! This website showcases the use of a react based application!
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+The profile/portfolio pages are comprised of several components including a navbar and footer. 
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Usage
+App is open source and free to use.
 
-## Starting the app locally
+## Installation
+NPM install to install multiple packages.
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Authors
+Christopher Sipe
 
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+## Built With
+Microsoft Visual Studio Code

@@ -7,6 +7,10 @@ const app = express();
 const mongoose = require("mongoose")
 const passport = require("passport");
 
+// Sets up the Express app to handle data parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 require("./models");
 
 app.use(passport.initialize());
@@ -28,7 +32,7 @@ app.get("*", function(req, res) {
 
 mongoose
   .connect(
-    process.env.MONGODB_URI || "mongodb://localhost/UPDATE_MY_DATABASE_NAME",
+    process.env.MONGODB_URI || "mongodb://localhost/reactiveportfolio",
     { useNewUrlParser: true }
   )
   .then(() => console.log("MongoDB successfully connected"))
